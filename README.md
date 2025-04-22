@@ -222,34 +222,31 @@ This ebook is designed to meet you where you are on your development journey. Ea
 
 ---
 
-## 🖥️ Interactive Learning Experience
+## 📖 How to Use This Book
 
-This repository includes a fully functional web application that demonstrates key Vibe Coding concepts in action.
+This repository contains the complete Vibe Coding 101 book as a collection of markdown files organized by chapter.
 
 <div align="center">
 
-### [📲 Try the Live Demo](https://vibecoding-101.netlify.app/)
+### [📚 Start Reading Now](#comprehensive-chapter-guide)
 
 </div>
 
-### 🛠️ Running the App Locally
+### 🛠️ Reading Options
+
+1. **Browse Online**: Navigate the book directly on GitHub by clicking through chapter folders
+2. **Download for Offline Reading**: Clone or download the repository to read markdown files locally
+3. **Generate PDF/EPUB**: Convert to your preferred format using tools like Pandoc or markdown converters
 
 ```bash
-# Clone the repository
-git clone https://github.com/SquizAI/VibeCoding_1101.git
+# Clone the repository for local reading
+git clone https://github.com/SquizAI/VIbeCoding_1101_Book.git
 
-# Navigate to the interactive application
-cd VibeCoding_101/interactive_chapter/vibe-coding-interactive
+# Navigate to the book directory
+cd VIbeCoding_1101_Book
 
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env to add your API keys
-
-# Start the development server
-npm run dev
+# Start with the main README and follow chapter links
+# Each chapter has beginner, advanced, and ninja-level content
 ```
 
 ---
