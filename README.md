@@ -66,37 +66,159 @@ This ebook is designed to meet you where you are on your development journey. Ea
   </table>
 </div>
 
-### 📑 Chapter Overview
+### 📑 Comprehensive Chapter Guide
 
-<details>
-<summary><b>Chapter 1: The Vibe Coding Revolution</b> (click to expand)</summary>
-
-- Introduction to AI-assisted development
-- The evolution of programming paradigms
-- Core concepts and terminology
-- Setting up your Vibe Coding environment
-- [Read Chapter 1 →](./Chapter_01_The_Vibe_Coding_Revolution/Chapter_01_Main.md)
-</details>
-
-<details>
-<summary><b>Chapter 2: Getting Started with Vibe Coding</b> (click to expand)</summary>
-
-- Essential tools and frameworks
-- Communication patterns with AI
-- Your first AI-assisted project
-- Common pitfalls and how to avoid them
-- [Read Chapter 2 →](./Chapter_02_Getting_Started/Chapter_02_Main.md)
-</details>
-
-<details>
-<summary><b>Chapter 3: Building Real Projects</b> (click to expand)</summary>
-
-- Applied Vibe Coding techniques
-- Case studies and examples
-- Best practices for real-world applications
-- Performance optimization strategies
-- [Read Chapter 3 →](./Chapter_03_Building_Real_Projects/Chapter_03_Main.md)
-</details>
+<table>
+  <tr>
+    <th>Chapter</th>
+    <th>Description</th>
+    <th>What You'll Learn</th>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_01_The_Vibe_Coding_Revolution/README.md">Chapter 1:<br>The Vibe Coding Revolution</a></b></td>
+    <td>Introduction to the revolutionary paradigm of AI-assisted development that's transforming the software industry in 2025.</td>
+    <td>
+      <ul>
+        <li>Core Vibe Coding principles and methodologies</li>
+        <li>Evolution from traditional to AI-assisted development</li>
+        <li>The AI collaboration mindset and workflow</li>
+        <li>Setting up your Vibe Coding environment</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_02_Getting_Started/README.md">Chapter 2:<br>Getting Started with Vibe Coding</a></b></td>
+    <td>A practical guide to establishing your Vibe Coding workflow, from selecting the right tools to completing your first AI-assisted project.</td>
+    <td>
+      <ul>
+        <li>Blueprint-first development approach</li>
+        <li>Effective communication patterns with AI</li>
+        <li>Setting up your AI-assisted development environment</li>
+        <li>Building your first Vibe Coding project</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_03_Building_Real_Projects/README.md">Chapter 3:<br>Building Real Projects</a></b></td>
+    <td>Applying Vibe Coding to real-world projects across different application types and complexity levels.</td>
+    <td>
+      <ul>
+        <li>Translating requirements into effective AI prompts</li>
+        <li>Building complete applications with AI assistance</li>
+        <li>Implementing advanced features and integrations</li>
+        <li>Testing and debugging strategies in AI-assisted workflows</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_04_Backend_Development/README.md">Chapter 4:<br>Backend Development</a></b></td>
+    <td>Mastering AI-assisted backend development, from API design to database integration and server deployment.</td>
+    <td>
+      <ul>
+        <li>Designing robust APIs with AI guidance</li>
+        <li>Efficient database schema development</li>
+        <li>Building authentication and authorization systems</li>
+        <li>Performance optimization techniques</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_05_Full_Stack/README.md">Chapter 5:<br>Full Stack Development</a></b></td>
+    <td>Creating complete full-stack applications with seamless integration between frontend, backend, and database components.</td>
+    <td>
+      <ul>
+        <li>Front-end development with AI assistance</li>
+        <li>Integrating frontend and backend systems</li>
+        <li>State management and data flow optimization</li>
+        <li>Building responsive, accessible user interfaces</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_06_Advanced_Prompt_Engineering/README.md">Chapter 6:<br>Advanced Prompt Engineering</a></b></td>
+    <td>Taking your AI communication skills to the next level with sophisticated prompting techniques and patterns.</td>
+    <td>
+      <ul>
+        <li>Structured prompt design methodologies</li>
+        <li>Domain-specific prompting strategies</li>
+        <li>Prompt patterns for complex development tasks</li>
+        <li>Iterative refinement and optimization techniques</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_07_Mobile_Development/README.md">Chapter 7:<br>Mobile Development</a></b></td>
+    <td>Harnessing AI assistance to build native and cross-platform mobile applications with enhanced efficiency.</td>
+    <td>
+      <ul>
+        <li>Mobile-specific AI prompting strategies</li>
+        <li>Building native iOS and Android applications</li>
+        <li>Cross-platform development techniques</li>
+        <li>Mobile UI/UX optimization with AI guidance</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_08_Data_Science/README.md">Chapter 8:<br>Data Science</a></b></td>
+    <td>Applying Vibe Coding techniques to data analysis, visualization, and machine learning model development.</td>
+    <td>
+      <ul>
+        <li>Data analysis and processing with AI assistance</li>
+        <li>Creating compelling data visualizations</li>
+        <li>Building and fine-tuning ML models</li>
+        <li>Interpreting results and communicating insights</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_09_Production_Capstone/README.md">Chapter 9:<br>Production Capstone</a></b></td>
+    <td>Taking applications from development to production with AI-assisted deployment, monitoring, and optimization.</td>
+    <td>
+      <ul>
+        <li>CI/CD implementation with AI guidance</li>
+        <li>Cloud infrastructure configuration</li>
+        <li>Monitoring and observability setup</li>
+        <li>Performance optimization and security hardening</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_10_Collaboration/README.md">Chapter 10:<br>AI-Augmented Team Collaboration</a></b></td>
+    <td>Transforming team dynamics by integrating AI tools into collaborative development workflows.</td>
+    <td>
+      <ul>
+        <li>AI-assisted code reviews and quality assurance</li>
+        <li>Knowledge sharing and context preservation</li>
+        <li>Collective intelligence in development teams</li>
+        <li>Onboarding and skill development systems</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_11_Ethics/README.md">Chapter 11:<br>Ethics of AI-Assisted Development</a></b></td>
+    <td>Navigating the ethical dimensions and implications of AI-assisted development practices.</td>
+    <td>
+      <ul>
+        <li>Ethical frameworks for responsible AI use</li>
+        <li>Bias detection and mitigation strategies</li>
+        <li>Attribution and transparency best practices</li>
+        <li>Governance systems for ethical AI adoption</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_12_Future/README.md">Chapter 12:<br>The Future Beyond Vibe Coding</a></b></td>
+    <td>Exploring emerging trends and future possibilities that extend beyond current AI-assisted development practices.</td>
+    <td>
+      <ul>
+        <li>Multimodal development interfaces</li>
+        <li>Intent-driven development paradigms</li>
+        <li>Human-AI symbiotic systems</li>
+        <li>Self-evolving software organisms</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
