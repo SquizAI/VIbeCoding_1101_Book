@@ -31,10 +31,10 @@ Each chapter in the VibeCoding 101 book is organized into:
 
 ## 📚 Chapters
 
-### 🌟 [Chapter 01: The Vibe Coding Revolution](Chapter_01/)
+### 🌟 [Chapter 01: The Vibe Coding Revolution](Chapter_01_The_Vibe_Coding_Revolution/)
 Understand the paradigm shift in software development with AI assistance and the core principles of Vibe Coding.
 
-### 🚀 [Chapter 02: Getting Started with Vibe Coding](Chapter_02/)
+### 🚀 [Chapter 02: Getting Started with Vibe Coding](Chapter_02_Getting_Started_with_Vibe_Coding/)
 Set up your environment and learn the fundamentals of prompt engineering for effective AI collaboration.
 
 ### 💻 [Chapter 03: Building Real Projects with AI Assistance](Chapter_03/)
