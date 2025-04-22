@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Vibe Coding Banner](../resources/chapter2_banner.png)
+## Vibe Coding: Where Human Creativity Meets AI Capabilities
 
 </div>
 
@@ -53,31 +53,81 @@ This chapter will guide you through setting up this enhanced environment and dev
 
 By mastering these foundational elements, you'll be prepared to fully embrace the vibe coding paradigm, transforming not just what you can build, but how you approach the entire development process.
 
-## **Building Your AI-Augmented Development Environment**
+## **Building Your AI-Augmented Development Environment (2025 Edition)**
 
-The foundation of effective vibe coding lies in a well-configured development environment that seamlessly integrates AI assistance into your workflow. Unlike traditional setups that focus primarily on execution and debugging tools, an AI-augmented environment prioritizes smooth communication between you and your AI collaborator.
+The foundation of effective vibe coding lies in a well-configured development environment that seamlessly integrates AI assistance into your workflow. Unlike traditional setups that focus primarily on execution and debugging tools, an AI-augmented environment prioritizes smooth communication between you and your AI collaborator. The landscape of AI development tools has evolved dramatically since 2023, with several specialized platforms now available for different coding scenarios.
 
-### **Core Components**
+### **Core Components of a Modern Vibe Coding Setup**
 
-An optimal vibe coding environment includes the following key components:
+Based on the latest research and developer feedback from 2025, an optimal vibe coding environment includes the following key components:
 
-1. Integrated Development Environment (IDE) with AI Capabilities: Modern IDEs like Visual Studio Code or JetBrains tools with AI plugins such as GitHub Copilot provide inline code suggestions and completions. These integrations make AI assistance feel like a natural extension of your coding process rather than a separate tool.
+#### **1. AI-Native Code Editors**
 
-2. Access to Standalone AI Assistants: While IDE integrations excel at inline completions, standalone AI assistants like ChatGPT or Claude are better suited for more complex tasks such as architecture planning, debugging assistance, or explaining complex code snippets. Having both types of assistants available gives you flexibility for different tasks.
+Today's most powerful development environments are built from the ground up with AI integration:
 
-3. Version Control Integration: AI-assisted development often involves rapid iteration and experimentation. A robust version control setup allows you to easily track changes, compare AI-generated solutions, and revert when necessary.
+- **Cursor**: Built on top of VS Code, Cursor provides context-aware code generation, multi-file editing through Composer, and customizable AI behavior with Cursor Rules. It's particularly strong for experienced developers who want full control over their codebase while leveraging AI assistance. Cursor's strength lies in its ability to understand context across multiple files and deep integration with your development workflow.
 
-4. Define Project Structure: Even with AI assistance, having a clear project structure from the outset is crucial. Use AI tools to help generate an initial structure that follows best practices for your chosen technology stack.
+- **Windsurf**: Created by the team behind Codeium, Windsurf offers a clean, minimal interface with its standout feature being the Cascade agent. This agent can autonomously perform multi-step coding tasks—from understanding requirements to implementing and testing code changes. Windsurf excels at simplicity with its two modes: Chat (for discussions without code changes) and Write (for implementing actual code modifications). It's particularly praised for its beginner-friendly design while maintaining powerful capabilities.
 
-### **Setting Up Your Environment**
+- **Traditional IDEs with AI Extensions**: For developers preferring to stay with familiar environments, most traditional IDEs now support robust AI integrations through extensions:
+  - Visual Studio Code with GitHub Copilot/Copilot Enterprise or Codeium extensions
+  - JetBrains IDEs (IntelliJ, PyCharm, etc.) with AI Assistant plugin
+  - Vim/Neovim with specialized AI completion plugins
 
-The specific tools you choose will depend on your technology stack and preferences, but a typical setup might include:
+#### **2. Full-Stack Development Platforms**
 
-* Visual Studio Code with GitHub Copilot extension
-* Access to ChatGPT (via web or API) or Claude for complex reasoning tasks
-* Git for version control with a structured branching strategy
-* AI-friendly documentation tools (e.g., automatic code documentation generators)
-* Testing frameworks compatible with AI-generated code
+These platforms handle the entire development process from ideation to deployment:
+
+- **Bolt.new**: A browser-based AI development platform focused on rapid prototyping and quick MVPs. Bolt.new excels at transforming natural language descriptions into working applications with minimal setup. It's ideal for quickly testing ideas or building proof-of-concepts without managing a complex development environment. The platform handles everything from generating project structures to simple deployment processes.
+
+- **Bolt.diy**: The open-source alternative to Bolt.new that allows you to use any LLM you want. It gives developers more control over the AI models used while maintaining the streamlined development experience of the original Bolt platform.
+
+- **Replit with Replit Agent**: This cloud IDE now includes Replit Agent, which can create and deploy applications from natural language prompts. Replit handles environment setup, package management, code execution, and debugging in an automated flow. It excels at taking projects from idea to deployment with minimal user intervention, automating tedious tasks like setting up environments and installing dependencies.
+
+#### **3. Specialized AI Assistants**
+
+Beyond coding environments, these tools provide targeted assistance for specific aspects of development:
+
+- **ChatGPT with Advanced Code Interpreter**: For complex reasoning tasks, architecture planning, debugging assistance, and explaining code snippets. The Code Interpreter feature allows for real-time code execution and testing.
+
+- **Claude-Next**: Anthropic's advanced coding assistant with extended context windows (up to 200,000 tokens) excels at handling large codebases and documentation in a single conversation.
+
+- **Cody**: Specialized in context-aware explanation and intelligent search across repositories.
+
+- **v0.dev (Vercel)**: AI pair programmer focused specifically on Next.js and React UI component generation from descriptions.
+
+#### **4. AI-Enhanced DevOps Tools**
+
+Modern vibe coding extends beyond writing code to deployment and maintenance:
+
+- **GitHub Actions AI**: Automated CI/CD workflows with AI-optimized testing and deployment processes
+
+- **CodeSee**: AI-powered codebase visualization and documentation that maintains real-time maps of system architecture
+
+- **Stenography**: Automatic documentation generation that produces comprehensive, accurate documentation from codebases
+
+- **DeepCode AI**: Advanced static analysis that identifies bugs, security vulnerabilities, and quality issues
+
+### **Setting Up Your Optimal Environment by Use Case**
+
+Based on your project needs and personal workflow preferences, here are recommended setups for different scenarios:
+
+#### **For Quick Prototyping and MVPs**
+- Primary tool: Bolt.new or Replit Agent
+- Support tool: ChatGPT for architectural planning
+- Version control: Built-in to the platforms
+
+#### **For Production-Grade Development**
+- Primary environment: Cursor or Windsurf
+- Support tools: Claude-Next for complex reasoning, GitHub Actions AI for CI/CD
+- Version control: Git with structured branching strategy
+- Documentation: Stenography or CodeSee
+
+#### **For Team Collaboration**
+- Primary environment: Replit (for shared workspaces) or Cursor (with GitHub integration)
+- Communication layer: AI-assisted code review tools
+- Knowledge management: AI documentation generators integrated with team wikis
+- Version control: Git with pull request templates optimized for AI-generated code reviews
 
 ## **The Art of Prompt Engineering for Code Generation**
 
@@ -239,7 +289,7 @@ In the next chapter, we'll build on these foundations to explore advanced prompt
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_01/Chapter_01_Main.md) | [📚 Table of Contents](../../README.md) | [➡️ Next Chapter](../Chapter_03/Chapter_03_Main.md)**
+**[⬅️ Previous Chapter](../Chapter_01_The_Vibe_Coding_Revolution/Chapter_01_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_03_Building_Real_Projects_with_AI_Assistance/Chapter_03_Main.md)**
 
 </div>
 

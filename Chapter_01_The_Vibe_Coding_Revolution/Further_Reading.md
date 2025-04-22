@@ -21,13 +21,19 @@
 
 <div align="center">
 
-**[📚 Chapter 01 Main](./Chapter_01_Main.md) | [📚 Examples](./examples/) | [📚 Exercises](./exercises/)**
+**[📚 Table of Contents](../README.md)| [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
 <div align="center">
 
-**[🔰 Beginner](./Chapter_01_Beginner.md) | [⚙️ Advanced](./Chapter_01_Advanced.md) | [⚔️ Ninja](./Chapter_01_Ninja.md)**
+**[🔰 Beginner](./Chapter_01_Beginner.md) | [⚙️ Advanced](./Chapter_01_Advanced.md) | [⚔️ Ninja](./Chapter_01_Ninja.md) | [📝 Main](./Chapter_01_Main.md)**
+
+</div>
+
+<div align="center">
+
+*© 2025 VibeCoding - Where Human Creativity Meets AI Capabilities*
 
 </div>
 

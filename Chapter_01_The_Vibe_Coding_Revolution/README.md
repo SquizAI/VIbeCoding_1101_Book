@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[📚 Table of Contents](../index.md) | [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/README.md)**
+**[📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
@@ -39,14 +39,14 @@
 ## Learning Materials
 
 - [📚 Examples](./examples/) - Practical code examples demonstrating key concepts
-  - [🔰 AI Tool Integration](./examples/Chapter_01_Beginner_Example_AI_Tool_Integration.md)
-  - [⚙️ Prompt Patterns](./examples/Chapter_01_Advanced_Example_Prompt_Patterns.md)
-  - [⚔️ Traditional vs Vibe Coding](./examples/Chapter_01_Ninja_Example_Traditional_vs_Vibe_Coding.js)
+  - [Traditional vs Vibe Coding](./examples/Chapter_01_Traditional_vs_Vibe_Coding.js)
+  - [AI Tool Integration](./examples/Chapter_01_AI_Tool_Integration.md)
+  - [Prompt Patterns](./examples/Chapter_01_Prompt_Patterns.md)
 
 - [💻 Exercises](./exercises/) - Hands-on practice to reinforce learning
-  - [🔰 Exercise 1: First AI Project](./exercises/Chapter_01_Beginner_Exercise_1_First_AI_Project.md)
-  - [⚙️ Exercise 2: API Development](./exercises/Chapter_01_Advanced_Exercise_2_API_Development.md)
-  - [⚔️ Exercise 3: Multi-Agent System](./exercises/Chapter_01_Ninja_Exercise_3_Multi_Agent_System.md)
+  - [🔰 Exercise 1: First AI Project](./exercises/Chapter_01_Exercise_1_First_AI_Project.md)
+  - [⚙️ Exercise 2: API Development](./exercises/Chapter_01_Exercise_2_API_Development.md)
+  - [⚔️ Exercise 3: Multi-Agent System](./exercises/Chapter_01_Exercise_3_Multi_Agent_System.md)
 
 - [📖 Further Reading](Further_Reading.md) - Additional resources for deeper exploration
 

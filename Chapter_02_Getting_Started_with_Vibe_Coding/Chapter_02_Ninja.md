@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Vibe Coding Banner](../resources/chapter2_banner.png)
+## **Getting Started With Vibe Coding: Advanced Techniques For Expert Developers**
 
 </div>
 
@@ -346,13 +346,13 @@ Document your architecture, implementation decisions, and performance metrics co
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_01/Chapter_01_Ninja.md) | [📚 Table of Contents](../../README.md) | [➡️ Next Chapter](../Chapter_03/Chapter_03_Ninja.md)**
+**[⬅️ Previous Chapter](../Chapter_01_The_Vibe_Coding_Revolution/Chapter_01_Main.md) | [📚 Table of Contents](../README.md)| [➡️ Next Chapter](../Chapter_03_Building_Real_Projects_with_AI_Assistance/Chapter_03_Main.md)**
 
 </div>
 
 <div align="center">
 
-**[📚 Main Content](./Chapter_02_Main.md) | 🔰 [Beginner](./Chapter_02_Beginner.md) | ⚙️ [Advanced](./Chapter_02_Advanced.md)**
+**[🔰 Beginner](./Chapter_02_Beginner.md) | [⚙️ Advanced](./Chapter_02_Advanced.md) | [⚔️ Ninja](./Chapter_02_Ninja.md) | [📝 Main](./Chapter_02_Main.md)**
 
 </div>
 

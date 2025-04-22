@@ -28,24 +28,17 @@
 - [⚙️ Advanced Level](Chapter_02_Advanced.md) - For experienced developers
 - [⚔️ Ninja Level](Chapter_02_Ninja.md) - For mastering prompt engineering
 
-## 📁 Learning Materials
+## 📁 Additional Materials
 
 - [💻 Examples](./examples/) - Practical examples of prompt engineering
-  - [🔰 Hello World Web Page](./examples/Chapter_02_Beginner_Example_Hello_World.html) - Simple HTML/CSS/JS example
-  - [⚙️ AI Assistant](./examples/Chapter_02_Advanced_Example_Simple_Assistant.py) - Python-based AI assistant
-
 - [🏃 Exercises](./exercises/) - Practice activities to build prompt skills
-  - [🔰 Exercise 1: First Prompt](./exercises/Chapter_02_Beginner_Exercise_1_First_Prompt.md) - Learn to craft effective prompts
-  - [⚙️ Exercise 2: Tool Selection](./exercises/Chapter_02_Advanced_Exercise_2_Tool_Selection.md) - Choose the right AI tools for different tasks
-  - [⚔️ Exercise 3: Meta-Prompt System](./exercises/Chapter_02_Ninja_Exercise_3_Meta_Prompt_System.md) - Build a prompt optimization system
-  
 - [📖 Further Reading](./Further_Reading.md) - Additional resources
 
 ---
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_01_The_Vibe_Coding_Revolution/README.md) | [📚 Table of Contents](../index.md)**
+**[⬅️ Previous Chapter](../Chapter_01_The_Vibe_Coding_Revolution/Chapter_01_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_03_Building_Real_Projects_with_AI_Assistance/Chapter_03_Main.md)**
 
 </div>
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔰 Chapter 1: The Vibe Coding Revolution (Beginner Level) 🔰
+# 🔰 Chapter 01: The Vibe Coding Revolution - Understanding AI-Driven Development For Beginners 🔰
 
 </div>
 
@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_02/Chapter_02_Beginner.md)**
+**[📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
@@ -94,13 +94,13 @@ In the exercises section, we'll guide you through your first Vibe Coding project
 
 <div align="center">
 
-**[📚 Table of Contents](../../README.md) | [➡️ Next Chapter](../Chapter_02/Chapter_02_Beginner.md)**
+**[📚 Table of Contents](../README.md)| [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
 <div align="center">
 
-**[📚 Main Content](./Chapter_01_Main.md) | ⚙️ [Advanced](./Chapter_01_Advanced.md) | ⚔️ [Ninja](./Chapter_01_Ninja.md)**
+**[🔰 Beginner](./Chapter_01_Beginner.md) | [⚙️ Advanced](./Chapter_01_Advanced.md) | [⚔️ Ninja](./Chapter_01_Ninja.md) | [📝 Main](./Chapter_01_Main.md)**
 
 </div>
 

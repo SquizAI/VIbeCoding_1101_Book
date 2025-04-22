@@ -78,13 +78,13 @@
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_01/Further_Reading.md) | [📚 Table of Contents](../index.md) | [➡️ Next Chapter](../Chapter_03/Further_Reading.md)**
+**[⬅️ Previous Chapter](../Chapter_01_The_Vibe_Coding_Revolution/Chapter_01_Main.md) | [📚 Table of Contents](../README.md)| [➡️ Next Chapter](../Chapter_03_Building_Real_Projects_with_AI_Assistance/Chapter_03_Main.md)**
 
 </div>
 
 <div align="center">
 
-**[🌐 Return to Chapter](./README.md) | [📗 Main Content](./Chapter_02_Main.md)**
+**[🔰 Beginner](./Chapter_02_Beginner.md) | [⚙️ Advanced](./Chapter_02_Advanced.md) | [⚔️ Ninja](./Chapter_02_Ninja.md) | [📝 Main](./Chapter_02_Main.md)**
 
 </div>
 

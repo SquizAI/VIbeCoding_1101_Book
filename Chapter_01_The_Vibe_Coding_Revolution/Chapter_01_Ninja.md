@@ -1,12 +1,12 @@
 <div align="center">
 
-# ⚔️ Chapter 1: The Vibe Coding Revolution - Ninja Level ⚔️
+# ⚔️ Chapter 01: The Vibe Coding Revolution - Cutting-Edge Techniques For Expert Developers ⚔️
 
 </div>
 
 <div align="center">
 
-![Vibe Coding Banner](../resources/chapter1_banner.png)
+## **The Vibe Coding Revolution: Cutting-Edge Techniques For Expert Developers**
 
 </div>
 
@@ -20,13 +20,19 @@
 
 <div align="center">
 
-**[📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_02/Chapter_02_Ninja.md)**
+**[📚 Table of Contents](../README.md)| [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
 <div align="center">
 
-**[🔰 Beginner](./Chapter_01_Beginner.md) | [⚙️ Advanced](./Chapter_01_Advanced.md) | ⚔️ [Ninja](./Chapter_01_Ninja.md) | [📝 Main](./Chapter_01_Main.md)**
+**[🔰 Beginner](./Chapter_01_Beginner.md) | [⚙️ Advanced](./Chapter_01_Advanced.md) | [⚔️ Ninja](./Chapter_01_Ninja.md) | [📝 Main](./Chapter_01_Main.md)**
+
+</div>
+
+<div align="center">
+
+*© 2025 VibeCoding - Where Human Creativity Meets AI Capabilities*
 
 </div>
 
@@ -132,7 +138,7 @@ The exercises section contains a complex systems engineering problem with specif
 
 <div align="center">
 
-**[📚 Table of Contents](../../README.md) | [➡️ Next Chapter](../Chapter_02/Chapter_02_Ninja.md)**
+**[📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_02_Getting_Started_with_Vibe_Coding/Chapter_02_Main.md)**
 
 </div>
 
