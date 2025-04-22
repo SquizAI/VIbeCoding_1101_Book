@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: #fff;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        
+        input {
+            padding: 0.8rem 1rem;
+            width: 300px;
+            border: none;
+            border-radius: 25px 0 0 25px;
+            outline: none;
+            font-size: 1rem;
+        }
+        
+        button {
+            background: #ff7e5f;
+            color: white;
+            border: none;
+            padding: 0 1.5rem;
+            border-radius: 0 25px 25px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #ff6347;
+        }
+        
+        .weather-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        
+        .current-weather {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .weather-icon {
+            width: 100px;
+            height: 100px;
+            margin: 1rem auto;
+        }
+        
+        .temperature {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        
+        .details {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        
+        .detail {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .forecast {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            padding: 1rem 0;
+            width: 100%;
+        }
+        
+        .forecast-day {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 1rem;
+            min-width: 120px;
+            text-align: center;
+        }
+        
+        .forecast-icon {
+            width: 50px;
+            height: 50px;
+            margin: 0.5rem auto;
+        }
+        
+        .loading {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 2rem 0;
+            display: none;
+        }
+        
+        .error-message {
+            color: #ff6b6b;
+            text-align: center;
+            margin: 1rem 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <p>Check the weather in any city around the world</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name..." aria-label="City name">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div id="loading" class="loading">Loading weather data...</div>
+        <div id="error-message" class="error-message">City not found. Please try again.</div>
+        
+        <div class="weather-display">
+            <div id="current-weather" class="current-weather" style="display: none;">
+                <h2 id="city-name">City Name</h2>
+                <div id="weather-icon" class="weather-icon">
+                    <!-- Icon will be inserted here -->
+                </div>
+                <div id="description">Weather description</div>
+                <div id="temperature" class="temperature">0°C</div>
+                <div class="details">
+                    <div class="detail">
+                        <div>Humidity</div>
+                        <div id="humidity">0%</div>
+                    </div>
+                    <div class="detail">
+                        <div>Wind</div>
+                        <div id="wind">0 km/h</div>
+                    </div>
+                    <div class="detail">
+                        <div>Feels Like</div>
+                        <div id="feels-like">0°C</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="forecast" class="forecast">
+                <!-- Forecast days will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // For a real app, you would use an actual API key
+        // This is just for demonstration purposes
+        const mockWeatherData = {
+            "New York": {
+                current: {
+                    city: "New York",
+                    temp: 24,
+                    feelsLike: 26,
+                    humidity: 65,
+                    wind: 12,
+                    description: "Partly Cloudy",
+                    icon: "☁️"
+                },
+                forecast: [
+                    { day: "Tue", temp: 23, icon: "☁️" },
+                    { day: "Wed", temp: 25, icon: "☀️" },
+                    { day: "Thu", temp: 28, icon: "☀️" },
+                    { day: "Fri", temp: 27, icon: "🌧️" },
+                    { day: "Sat", temp: 22, icon: "🌧️" }
+                ]
+            },
+            "London": {
+                current: {
+                    city: "London",
+                    temp: 18,
+                    feelsLike: 17,
+                    humidity: 78,
+                    wind: 15,
+                    description: "Light Rain",
+                    icon: "🌧️"
+                },
+                forecast: [
+                    { day: "Tue", temp: 17, icon: "🌧️" },
+                    { day: "Wed", temp: 16, icon: "☁️" },
+                    { day: "Thu", temp: 18, icon: "☁️" },
+                    { day: "Fri", temp: 19, icon: "☀️" },
+                    { day: "Sat", temp: 20, icon: "☀️" }
+                ]
+            },
+            "Tokyo": {
+                current: {
+                    city: "Tokyo",
+                    temp: 27,
+                    feelsLike: 29,
+                    humidity: 70,
+                    wind: 8,
+                    description: "Sunny",
+                    icon: "☀️"
+                },
+                forecast: [
+                    { day: "Tue", temp: 28, icon: "☀️" },
+                    { day: "Wed", temp: 29, icon: "☀️" },
+                    { day: "Thu", temp: 28, icon: "🌧️" },
+                    { day: "Fri", temp: 26, icon: "🌧️" },
+                    { day: "Sat", temp: 25, icon: "☁️" }
+                ]
+            }
+        };
+
+        // DOM elements
+        const cityInput = document.getElementById('city-input');
+        const searchBtn = document.getElementById('search-btn');
+        const loadingElement = document.getElementById('loading');
+        const errorMessage = document.getElementById('error-message');
+        const currentWeather = document.getElementById('current-weather');
+        const cityName = document.getElementById('city-name');
+        const weatherIcon = document.getElementById('weather-icon');
+        const description = document.getElementById('description');
+        const temperature = document.getElementById('temperature');
+        const humidity = document.getElementById('humidity');
+        const wind = document.getElementById('wind');
+        const feelsLike = document.getElementById('feels-like');
+        const forecast = document.getElementById('forecast');
+
+        // Search for weather
+        searchBtn.addEventListener('click', () => {
+            searchWeather();
+        });
+
+        cityInput.addEventListener('keyup', (event) => {
+            if (event.key === 'Enter') {
+                searchWeather();
+            }
+        });
+
+        function searchWeather() {
+            const city = cityInput.value.trim();
+            
+            if (!city) return;
+            
+            // Show loading, hide error and current weather
+            loadingElement.style.display = 'block';
+            errorMessage.style.display = 'none';
+            currentWeather.style.display = 'none';
+            forecast.innerHTML = '';
+            
+            // Simulate API request delay
+            setTimeout(() => {
+                // Check if we have mock data for this city
+                if (mockWeatherData[city]) {
+                    displayWeatherData(mockWeatherData[city]);
+                    loadingElement.style.display = 'none';
+                } else {
+                    // Show error
+                    loadingElement.style.display = 'none';
+                    errorMessage.style.display = 'block';
+                }
+            }, 1000);
+        }
+
+        function displayWeatherData(data) {
+            // Display current weather
+            cityName.textContent = data.current.city;
+            weatherIcon.textContent = data.current.icon;
+            weatherIcon.style.fontSize = '4rem';
+            description.textContent = data.current.description;
+            temperature.textContent = `${data.current.temp}°C`;
+            humidity.textContent = `${data.current.humidity}%`;
+            wind.textContent = `${data.current.wind} km/h`;
+            feelsLike.textContent = `${data.current.feelsLike}°C`;
+            
+            currentWeather.style.display = 'block';
+            
+            // Display forecast
+            forecast.innerHTML = '';
+            data.forecast.forEach(day => {
+                const dayElement = document.createElement('div');
+                dayElement.className = 'forecast-day';
+                dayElement.innerHTML = `
+                    <div>${day.day}</div>
+                    <div class="forecast-icon">${day.icon}</div>
+                    <div>${day.temp}°C</div>
+                `;
+                forecast.appendChild(dayElement);
+            });
+        }
+
+        // Initially show New York weather
+        displayWeatherData(mockWeatherData["New York"]);
+    </script>
+</body>
+</html>
