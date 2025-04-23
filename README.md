@@ -127,7 +127,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_03_Building_Real_Projects/README.md">Chapter 3:<br>Building Real Projects</a></b></td>
+    <td><b><a href="./Chapter_03_Building_Real_Projects_with_AI_Assistance/README.md">Chapter 3:<br>Building Real Projects with AI Assistance</a></b></td>
     <td>Applying Vibe Coding to real-world projects across different application types and complexity levels.</td>
     <td>
       <ul>
