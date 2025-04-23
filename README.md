@@ -2,7 +2,7 @@
 
 [![Vibe Coding Banner](https://i.imgur.com/XYZ123.png)](https://github.com/SquizAI/VibeCoding_1101_Book)
 
-# 📚 VIBE CODING 101 📚
+# 📚 VIBE CODING 1101 📚
 ## *The Definitive Guide to Human-AI Collaborative Development*
 
 </div>
