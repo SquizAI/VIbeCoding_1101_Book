@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Development_with_AI/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../README.md)**
+**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Development_with_AI/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
 
 </div>
 
@@ -111,9 +111,250 @@ For complex implementations, use a series of prompts that progressively refine t
 
 This approach breaks down complex tasks into manageable steps, each building on the previous one.
 
-### Domain-Specific Prompt Patterns
+## Code-Optimized Prompt Patterns
+
+Certain prompt patterns have proven especially effective for specific code-related tasks:
+
+### For Architecture Design
+
+```
+I'm designing a [type of application] that needs to handle [requirements]. 
+The system will need to [key functionality] while ensuring [important constraints].
+
+Please propose a high-level architecture with:
+1. Key components and their responsibilities
+2. How data flows between components
+3. Technologies you'd recommend for each part
+4. Potential scalability considerations
+5. Security implications to consider
+
+The architecture should follow [design principles] and optimize for [key metrics].
+```
+
+### For Debugging Complex Issues
+
+```
+I'm debugging an issue with [description of problem]. 
+The expected behavior is [what should happen], but instead [what actually happens].
+
+Here's the relevant code:
+[code snippet]
+
+I've already tried:
+1. [approach 1]
+2. [approach 2]
+
+Relevant environment details:
+- [language/framework version]
+- [platform/OS]
+- [any other context]
+
+Please help me:
+1. Analyze potential root causes
+2. Suggest specific debugging steps
+3. Propose solutions with code examples
+```
+
+### For Code Optimization
+
+```
+I need to optimize the following [language] code for [performance/memory/readability]:
+
+[code snippet]
+
+Current metrics:
+- [current performance metric]
+- [current limitation or issue]
+
+Constraints:
+- Must maintain compatibility with [environment/version]
+- Cannot use [prohibited approaches]
+- Must preserve [critical functionality]
+
+Please provide:
+1. An optimized version of this code
+2. Explanation of changes and why they improve [target metric]
+3. Expected improvement in quantifiable terms
+4. Any trade-offs introduced by the optimization
+```
+
+## Domain-Specific Prompt Engineering
 
 Experienced prompt engineers in 2025 maintain libraries of specialized prompts for different development domains. Here are some examples:
+
+### For API Design
+
+"Design a RESTful API for [feature] following OpenAPI 3.1 standards. Consider authentication, rate limiting, error handling, and versioning. The API should interact with the following data models: [models]. Include endpoint specifications, request/response formats, and status codes."
+
+### For Database Query Optimization
+
+"Optimize this database query [query] for better performance. The table [table] has [X] million records with indexes on [columns]. The query currently takes [time] to execute and needs to be under [target time]. Consider query structure, index usage, join methods, and potential schema changes."
+
+### For Security Auditing
+
+"Review this [code] for security vulnerabilities following OWASP Top 10 principles. Look for SQL injection, XSS, CSRF, authentication weaknesses, and insecure data handling. For each identified issue, explain the vulnerability, its impact, and provide a secure implementation alternative."
+
+## Prompt Management and Version Control
+
+In 2025, sophisticated teams treat prompts as valuable assets that require management and version control:
+
+### Prompt Libraries
+
+Maintaining organized libraries of effective prompts has become a best practice:
+
+```
+/prompts
+  /architecture
+    microservice-design.prompt
+    serverless-application.prompt
+  /code-generation
+    react-component.prompt
+    api-endpoint.prompt
+  /debugging
+    performance-issue.prompt
+    memory-leak.prompt
+  /testing
+    unit-test-generation.prompt
+    integration-test-scenarios.prompt
+```
+
+Each prompt file includes:
+- The core prompt template
+- Documentation on parameters and variables
+- Example usage and results
+- Version history and improvement notes
+
+### A/B Testing Prompts
+
+Advanced teams systematically test different prompt variations to identify which produces the best results:
+
+```python
+def test_prompt_effectiveness(prompt_variants, test_cases):
+    results = {}
+    for variant_name, prompt_template in prompt_variants.items():
+        variant_results = []
+        for test_case in test_cases:
+            filled_prompt = prompt_template.format(**test_case['inputs'])
+            ai_response = ai_system.generate(filled_prompt)
+            score = evaluate_response(ai_response, test_case['expected_output'])
+            variant_results.append(score)
+        results[variant_name] = {
+            'average_score': sum(variant_results) / len(variant_results),
+            'individual_scores': variant_results
+        }
+    return results
+```
+
+## Emerging 2025 Techniques
+
+As we move through 2025, several cutting-edge techniques are gaining traction:
+
+### Multimodal Prompting
+
+Combining text, code, and visual elements in a single prompt:
+
+```
+I want to create a dashboard with the following layout:
+[wireframe image]
+
+The data structure looks like this:
+[JSON data example]
+
+Please generate a React component that renders this dashboard using Material UI.
+The chart sections should use D3.js for visualization.
+```
+
+### Meta-Prompting
+
+Using AI to help generate and refine prompts:
+
+```
+I need to create a prompt that will help me generate [specific type of code/solution].
+The prompt should account for these factors:
+1. [important consideration 1]
+2. [important consideration 2]
+
+Please create a structured prompt template that I can use repeatedly for this purpose.
+```
+
+### Context-Adaptive Prompting
+
+Prompts that dynamically adapt based on the development context:
+
+```
+Based on the codebase context I've provided, generate a [component/function] that:
+1. Follows the existing patterns and conventions
+2. Integrates with the current architecture
+3. Handles error cases consistently with the rest of the system
+4. Uses the same styling and naming conventions
+
+The new functionality should [description of requirements].
+```
+
+## Ethical Considerations in Prompt Engineering
+
+As prompt engineering advances, ethical considerations have become increasingly important:
+
+### Bias Prevention
+
+Techniques to mitigate bias in AI-generated code:
+
+```
+Generate [component/algorithm] with the following requirements:
+
+1. The solution should work effectively for users from diverse backgrounds
+2. Avoid assumptions about user capabilities, resources, or preferences
+3. Include accessibility considerations
+4. Use inclusive language and examples
+
+After generating the solution, review it for potential bias or exclusionary aspects.
+```
+
+### Attribution and Licensing
+
+Ensuring proper attribution for AI-assisted code:
+
+```
+// This component was developed with AI assistance
+// Original prompt authored by: [developer name]
+// Generated on: [date]
+// Modified by human developers to ensure: [key considerations]
+// Licensed under: [license type]
+```
+
+## Conclusion: Mastering the Art of AI Collaboration
+
+Prompt engineering in 2025 has evolved from a simple technique into a sophisticated discipline that fundamentally changes how developers work with AI systems. By mastering these advanced techniques, you'll be able to:
+
+1. Generate more precise, contextually appropriate code
+2. Solve complex problems through structured collaboration
+3. Maintain consistent quality across your AI-assisted development
+4. Build innovative solutions that leverage the full capabilities of modern AI
+
+Remember that effective prompt engineering is both a technical skill and a creative art. The most successful developers treat AI as a collaborative partner, using clear communication and structured frameworks to guide the partnership toward optimal results.
+
+As you continue to develop your prompt engineering skills, experiment with different techniques, build your prompt library, and share best practices with your team. The language of AI collaboration is still evolving, and you have the opportunity to help shape its future.
+
+---
+
+<div align="center">
+
+**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Development_with_AI/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
+
+</div>
+
+<div align="center">
+
+**[🔰 Beginner](Chapter_06_Beginner.md) | [⚙️ Advanced](Chapter_06_Advanced.md) | [⚔️ Ninja](Chapter_06_Ninja.md) | [📝 Main](Chapter_06_Main.md)**
+
+</div>
+
+<div align="center">
+
+*© 2025 VibeCoding - Where Human Creativity Meets AI Capabilities*
+
+</div>
+
 
 #### For API Design
 
