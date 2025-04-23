@@ -41,8 +41,8 @@ Welcome to Chapter 3 of the Vibe Coding book: Building Real Projects with AI Ass
 ### Learning Resources
 
 - [💻 Examples](./examples/) - Practical examples of AI-assisted projects
-  - [🔰 Todo App](./examples/Chapter_03_Beginner_Example_Todo_App.js) - Simple JavaScript todo application
-  - [⚙️ API Service](./examples/Chapter_03_Advanced_Example_API_Service.py) - RESTful API implementation
+  - [🔰 Todo App](./examples/Chapter_03_Beginner_Example_Todo_App.md) - Simple JavaScript todo application
+  - [⚙️ API Service](./examples/Chapter_03_Advanced_Example_API_Service.md) - RESTful API implementation
   - [⚔️ Microservice Architecture](./examples/Chapter_03_Ninja_Example_Microservice_Architecture.md) - Advanced system design
 
 - [🏃 Exercises](./exercises/) - Practice activities to build real projects
