@@ -78,8 +78,6 @@ sequenceDiagram
     ColorGenerator->>ColorGenerator: Generate random color 2
     ColorGenerator->>Document: Update background gradient
     Document->>User: Displays new background
-    
-    style User fill:#f9d5e5,stroke:#333,stroke-width:2px
 ```
 
 ## Color Generation Algorithm
