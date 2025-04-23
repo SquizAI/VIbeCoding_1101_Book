@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_06_AI_Agents_and_Automation/Chapter_06_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md)**
+**[⬅️ Previous Chapter](../Chapter_06_Advanced_Prompt_Engineering/Chapter_06_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md)**
 
 </div>
 
@@ -90,7 +90,7 @@ For hands-on learning, explore the exercises directory with practical challenges
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_06_AI_Agents_and_Automation/Chapter_06_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md)**
+**[⬅️ Previous Chapter](../Chapter_06_Advanced_Prompt_Engineering/Chapter_06_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md)**
 
 </div>
 

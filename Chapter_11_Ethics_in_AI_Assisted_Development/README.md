@@ -6,76 +6,80 @@
 
 <div align="center">
 
-**[📚 Table of Contents](../README.md) | [⬅️ Previous Chapter](../Chapter_10_AI_Augmented_Team_Collaboration/README.md)**
-
-</div>
-
-<div align="center">
-
 ## Vibe Coding: Where Human Creativity Meets AI Capabilities
 
 </div>
 
----
+<div align="center">
 
-## Overview
+> *"With great AI power comes even greater responsibility."*
 
-This chapter explores the ethical dimensions of AI-assisted development, providing frameworks and practical guidance for responsible use of AI tools in software creation. You'll learn how to navigate complex ethical considerations, build responsible AI workflows, and foster a development culture that prioritizes ethical awareness alongside technical excellence.
-
-## 🚀 Main Content
-
-The [Main Chapter Content](Chapter_11_Main.md) provides a comprehensive overview of ethics in AI-assisted development, including key principles, frameworks for ethical decision-making, and implementation strategies.
-
-## 🎯 Skill Levels
-
-This chapter is organized into three skill levels to accommodate developers at different stages of their journey:
-
-### 💫 [Beginner Level](Chapter_11_Beginner.md)
-- Introduction to fundamental ethical principles
-- Basic ethical considerations in AI-assisted coding
-- Responsibility frameworks for generated code
-- Starting points for ethical reflection
-
-### 🔥 [Advanced Level](Chapter_11_Advanced_Part1.md)
-- Part 1: Comprehensive ethical frameworks
-- Addressing complex ethical scenarios
-- Aligning AI usage with organizational values
-- Building ethical review processes
-
-### 🔥 [Advanced Level - Part 2](Chapter_11_Advanced_Part2.md)
-- Ethics in specialized development domains
-- Balancing innovation and ethical constraints
-- Cross-cultural ethical considerations
-- Advanced bias mitigation strategies
-
-### ⚡ [Ninja Level](Chapter_11_Ninja_Part1.md)
-- Part 1: Cutting-edge ethical frameworks
-- Systemic approaches to ethical AI development
-- Building ethical governance systems
-- Future-focused ethical considerations
-
-### ⚡ [Ninja Level - Part 2](Chapter_11_Ninja_Part2.md)
-- Designing ethical AI systems from first principles
-- Ethics in emerging AI paradigms
-- Building ethical organizational cultures
-- Leading ethical transformation in the industry
-
-## 📚 Additional Resources
-
-- [Examples](./examples/): Real-world scenarios illustrating ethical dilemmas and solutions
-- [Exercises](./exercises/): Hands-on activities to develop ethical reasoning skills
-- [Resources](./resources/): Frameworks, checklists, and reference materials
-- [Further Reading](./resources/further_reading.md): Recommended books, articles, and courses
-
-## 🔗 Related Chapters
-
-- [Chapter 6: Advanced Prompt Engineering](../Chapter_06_Advanced_Prompt_Engineering/README.md)
-- [Chapter 10: AI-Augmented Team Collaboration](../Chapter_10_AI_Augmented_Team_Collaboration/README.md)
+</div>
 
 ---
 
 <div align="center">
 
-*© 2025 VibeCoding - Developing with ethics, responsibility, and human values at the center*
+**[⬅️ Previous Chapter](../Chapter_10_AI_Augmented_Team_Collaboration/Chapter_10_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_12_Future_of_Vibe_Coding/Chapter_12_Main.md)**
+
+</div>
+
+Welcome to Chapter 11 of the Vibe Coding book: Ethics in AI-Assisted Development. This chapter explores the ethical dimensions of AI-assisted development, providing frameworks and practical guidance for responsible use of AI tools in software creation.
+
+## Chapter Contents
+
+### Main Chapter Material
+
+- [📝 Chapter Main Content](./Chapter_11_Main.md) - Overview of ethics in AI-assisted development
+
+### Skill Level Content
+
+- [🔰 Beginner Level](./Chapter_11_Beginner.md) - Introduction to fundamental ethical principles
+- [⚙️ Advanced Level Part 1](./Chapter_11_Advanced_Part1.md) - Comprehensive ethical frameworks
+- [⚙️ Advanced Level Part 2](./Chapter_11_Advanced_Part2.md) - Ethics in specialized development domains
+- [⚔️ Ninja Level Part 1](./Chapter_11_Ninja_Part1.md) - Cutting-edge ethical frameworks
+- [⚔️ Ninja Level Part 2](./Chapter_11_Ninja_Part2.md) - Designing ethical AI systems from first principles
+
+### Learning Resources
+
+- [📚 Examples](./examples/) - Real-world scenarios illustrating ethical dilemmas and solutions
+- [💻 Exercises](./exercises/) - Hands-on activities to develop ethical reasoning skills
+- [📖 Further Reading](./resources/further_reading.md) - Recommended books, articles, and courses
+
+## Learning Objectives
+
+After completing this chapter, you will be able to:
+
+- Identify and address ethical considerations in AI-assisted development
+- Apply ethical frameworks to guide decision-making in your projects
+- Build responsible AI workflows and processes
+- Mitigate bias and fairness issues in AI-generated code
+- Foster a development culture that prioritizes ethical awareness
+- Navigate complex ethical scenarios unique to AI collaboration
+- Balance innovation with ethical constraints
+- Implement governance systems for ethical AI usage
+
+## Key Topics Covered
+
+- Fundamental ethical principles in AI-assisted development
+- Responsibility frameworks for generated code
+- Bias detection and mitigation strategies
+- Ethical decision-making frameworks
+- Cross-cultural ethical considerations
+- Organizational ethics policies and governance
+- Future-focused ethical considerations
+- Ethical leadership in AI-assisted development
+
+---
+
+<div align="center">
+
+**[⬅️ Previous Chapter](../Chapter_10_AI_Augmented_Team_Collaboration/Chapter_10_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_12_Future_of_Vibe_Coding/Chapter_12_Main.md)**
+
+</div>
+
+<div align="center">
+
+*© 2025 VibeCoding - Where Human Creativity Meets AI Capabilities*
 
 </div>

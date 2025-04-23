@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../README.md)**
+**[⬅️ Previous Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_10_AI_Augmented_Team_Collaboration/Chapter_10_Main.md)**
 
 </div>
 
@@ -91,7 +91,7 @@ For hands-on learning, explore the exercises directory with practical challenges
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../README.md)**
+**[⬅️ Previous Chapter](../Chapter_08_Advanced_Machine_Learning/Chapter_08_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_10_AI_Augmented_Team_Collaboration/Chapter_10_Main.md)**
 
 </div>
 

@@ -20,7 +20,7 @@
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Integration/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
+**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Development_with_AI/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
 
 </div>
 
@@ -91,7 +91,7 @@ For hands-on learning, explore the exercises directory with practical challenges
 
 <div align="center">
 
-**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Integration/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
+**[⬅️ Previous Chapter](../Chapter_05_Full_Stack_Development_with_AI/Chapter_05_Main.md) | [📚 Table of Contents](../README.md) | [➡️ Next Chapter](../Chapter_07_Mobile_Development/Chapter_07_Main.md)**
 
 </div>
 
