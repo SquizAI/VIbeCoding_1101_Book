@@ -16,52 +16,85 @@ This document provides practical examples of AI tool integration in development 
 
 ## 🔷 Example 1: Code Generation
 
-```javascript
-// Prompt: Create a function that calculates the Fibonacci sequence
-function fibonacci(n) {
-    if (n <= 1) return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
-}
+**Code Generation Example: Fibonacci Sequence**
 
-// Usage
-console.log(fibonacci(10)); // Output: 55
+```mermaid
+flowchart TD
+    A[Developer Prompt] -->|"Create a function for Fibonacci sequence"| B[AI Assistant]
+    B -->|Generates code| C[Fibonacci Function]
+    C -->|Contains| D[Base Case Logic]
+    C -->|Contains| E[Recursive Calculation]
+    D -->|"if n ≤ 1, return n"| F[Function Complete]
+    E -->|"Add fibonacci(n-1) + fibonacci(n-2)"| F
+    F -->|"Usage: fibonacci(10) = 55"| G[Application Code]
 ```
+
+**Key Concepts:**
+- Developer provides a natural language prompt describing the desired function
+- AI generates a recursive implementation with proper base cases
+- The generated function handles edge cases and follows best practices
+- Developer can immediately use the function without needing to research the algorithm
 
 ## 🔷 Example 2: Code Explanation
 
-```python
-# AI can explain complex code
-def quick_sort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
-    return quick_sort(left) + middle + quick_sort(right)
+**Code Explanation Example: Quick Sort Algorithm**
+
+```mermaid
+flowchart TD
+    A[Developer Shows Complex Code] -->|"Request explanation"| B[AI Assistant]
+    B -->|Analyzes and explains| C[Quick Sort Explanation]
+    C -->|Step 1| D[Base Case Check]
+    C -->|Step 2| E[Pivot Selection]
+    C -->|Step 3| F[Array Partitioning]
+    F -->|Elements < pivot| G[Left Partition]
+    F -->|Elements = pivot| H[Middle Partition]
+    F -->|Elements > pivot| I[Right Partition]
+    G & H & I -->|Step 4| J[Recursive Sorting]
+    J -->|Step 5| K[Combine Results]
 ```
+
+**Key Concepts:**
+- AI can break down complex algorithms into understandable steps
+- The explanation includes the purpose of each operation
+- Developers can understand unfamiliar code quickly
+- AI can identify potential optimization opportunities
+- The visual flow helps clarify the recursive nature of the algorithm
 
 ## 🔷 Example 3: Code Refactoring
 
-### Before:
-```javascript
-function processData(data) {
-    let result = [];
-    for (let i = 0; i < data.length; i++) {
-        if (data[i] % 2 === 0) {
-            result.push(data[i] * 2);
-        }
-    }
-    return result;
-}
+### Code Refactoring Example: Array Processing
+
+**Before Refactoring (Traditional Approach):**
+
+```mermaid
+flowchart LR
+    A[Input Array] --> B[Initialize Empty Result Array]
+    B --> C[Loop Through Each Element]
+    C --> D{Is Element Even?}
+    D -->|Yes| E[Double the Element]
+    E --> F[Add to Result Array]
+    D -->|No| G[Skip Element]
+    F & G --> H{More Elements?}
+    H -->|Yes| C
+    H -->|No| I[Return Result Array]
 ```
 
-### After (AI-assisted refactoring):
-```javascript
-function processData(data) {
-    return data.filter(item => item % 2 === 0).map(item => item * 2);
-}
+**After AI-Assisted Refactoring (Functional Approach):**
+
+```mermaid
+flowchart LR
+    A[Input Array] --> B[Filter: Keep Even Numbers]
+    B --> C[Map: Double Each Element]
+    C --> D[Return Transformed Array]
 ```
+
+**Key Improvements:**
+- Reduced from 9 lines to 1 line of functional code
+- Eliminated mutable state (the result array)
+- Removed manual iteration logic
+- Improved readability with declarative approach
+- Leveraged built-in higher-order functions
+- More maintainable and less prone to bugs
 
 ---
 

@@ -77,8 +77,15 @@ The system should orchestrate these agents, provide a way to resolve conflicts b
    - Failure modes and recovery strategies
 
 2. Implement a coordination protocol for inter-agent communication:
-   ```
-   agent_1_output → validator → transformation → agent_2_input
+
+   ```mermaid
+   flowchart LR
+       A[Agent 1 Output] --> B[Validator]
+       B --> C[Transformation Layer]
+       C --> D[Agent 2 Input]
+       
+       style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+       style D fill:#d5f9e5,stroke:#333,stroke-width:2px
    ```
 
 3. Design the orchestration layer that will sequence agent activities and resolve conflicts
@@ -86,16 +93,32 @@ The system should orchestrate these agents, provide a way to resolve conflicts b
 ## Step 2: Implement the Core Framework
 
 1. Create the agent abstraction layer that standardizes interaction with different AI models and tools
-   ```python
-   class Agent:
-       def process(self, task: Task, context: Context) -> Result:
-           pass
-       
-       def evaluate(self, result: Result) -> EvaluationMetrics:
-           pass
-       
-       def improve(self, feedback: Feedback) -> None:
-           pass
+
+   ```mermaid
+   classDiagram
+       class Agent {
+           +process(task, context) Result
+           +evaluate(result) EvaluationMetrics
+           +improve(feedback) void
+       }
+       class RequirementsAgent {
+           +process()
+           +evaluate()
+           +improve()
+       }
+       class FrontendAgent {
+           +process()
+           +evaluate()
+           +improve()
+       }
+       class BackendAgent {
+           +process()
+           +evaluate()
+           +improve()
+       }
+       Agent <|-- RequirementsAgent
+       Agent <|-- FrontendAgent
+       Agent <|-- BackendAgent
    ```
 
 2. Implement the task planning system that decomposes complex development goals into agent-specific tasks

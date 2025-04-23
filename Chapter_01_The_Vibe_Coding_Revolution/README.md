@@ -41,7 +41,7 @@ Welcome to Chapter 1 of the Vibe Coding book: The Vibe Coding Revolution. This c
 ### Learning Resources
 
 - [📚 Examples](./examples/) - Practical code examples demonstrating key concepts
-  - [Traditional vs Vibe Coding](./examples/Chapter_01_Traditional_vs_Vibe_Coding.js)
+  - [Traditional vs Vibe Coding](./examples/Chapter_01_Traditional_vs_Vibe_Coding.md)
   - [AI Tool Integration](./examples/Chapter_01_AI_Tool_Integration.md)
   - [Prompt Patterns](./examples/Chapter_01_Prompt_Patterns.md)
 
