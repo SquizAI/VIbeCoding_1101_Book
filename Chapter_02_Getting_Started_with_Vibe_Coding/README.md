@@ -41,6 +41,8 @@ Welcome to Chapter 2 of the Vibe Coding book: Getting Started with Vibe Coding. 
 ### Learning Resources
 
 - [📚 Examples](./examples/) - Practical examples of prompt engineering
+  - [Simple AI Assistant](./examples/Chapter_02_Simple_Assistant.md) - Command-line AI assistant with response patterns
+  - [Hello World Web Page](./examples/Chapter_02_Hello_World.md) - Modern web page with interactive elements
 - [💻 Exercises](./exercises/) - Practice activities to build prompt skills
 - [📖 Further Reading](./Further_Reading.md) - Additional resources
 

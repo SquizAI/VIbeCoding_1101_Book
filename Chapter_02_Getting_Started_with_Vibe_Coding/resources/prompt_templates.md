@@ -2,173 +2,268 @@
 
 This document provides reusable prompt templates for common Vibe Coding tasks, organized by complexity level and purpose.
 
+## Prompt Template Structure
+
+Effective prompts follow a consistent structure that provides necessary context and clear requests:
+
+```mermaid
+flowchart TD
+    A[Prompt Structure] --> B[Context/Introduction]
+    A --> C[Specific Request/Task]
+    A --> D[Requirements/Constraints]
+    A --> E[Expected Output Format]
+    A --> F[Additional Information]
+    
+    B --> B1[Project type, domain, purpose]
+    C --> C1[Clear action verbs, specific goals]
+    D --> D1[Technical requirements, limitations]
+    E --> E1[Deliverable format, structure]
+    F --> F1[Examples, references, preferences]
+    
+    style A fill:#f5f5f5,stroke:#333,stroke-width:2px
+    style B fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style C fill:#d4f1f9,stroke:#333,stroke-width:2px
+    style D fill:#ffe6cc,stroke:#333,stroke-width:2px
+    style E fill:#e1d5e7,stroke:#333,stroke-width:2px
+    style F fill:#fff2cc,stroke:#333,stroke-width:2px
+```
+
 ## Basic Prompt Templates
 
-### Project Initialization
+### Project Initialization Template
 
-```
-Create a [type of project] using [language/framework]. The project should [main functionality].
-
-Requirements:
-1. [Requirement 1]
-2. [Requirement 2]
-3. [Requirement 3]
-
-Please include:
-- Project structure
-- All necessary files
-- Setup instructions
-```
-
-### Code Explanation
-
-```
-Explain the following code in simple terms:
-
-```[language]
-[paste code here]
+```mermaid
+graph TD
+    A[Project Initialization Prompt] --> B[Project Type & Framework]
+    A --> C[Main Functionality Description]
+    A --> D[Specific Requirements]
+    A --> E[Deliverables]
+    
+    D --> D1[Requirement 1]
+    D --> D2[Requirement 2]
+    D --> D3[Requirement 3]
+    
+    E --> E1[Project Structure]
+    E --> E2[Necessary Files]
+    E --> E3[Setup Instructions]
+    
+    style A fill:#d4f1f9,stroke:#333,stroke-width:2px
 ```
 
-Please include:
-- What each section does
-- Any important concepts used
-- Potential improvements
+**Example Fields:**
+- **Project Type**: Web app, CLI tool, data analysis script
+- **Framework**: React, Django, Flask, Express
+- **Main Functionality**: User authentication, data visualization, API integration
+- **Requirements**: Responsive design, offline support, accessibility features
+- **Deliverables**: Folder structure diagram, configuration files, README content
+
+### Code Explanation Template
+
+```mermaid
+graph TD
+    A[Code Explanation Prompt] --> B[Request for Explanation]
+    A --> C[Code Block to Explain]
+    A --> D[Explanation Focus Areas]
+    
+    D --> D1[Section Functionality]
+    D --> D2[Important Concepts]
+    D --> D3[Potential Improvements]
+    
+    style A fill:#ffe6cc,stroke:#333,stroke-width:2px
 ```
 
-### Bug Fixing
+**Example Request:** "Explain this authentication middleware function in simple terms, focusing on the JWT verification process and security implications."
 
+### Bug Fixing Template
+
+```mermaid
+flowchart TD
+    A[Bug Fixing Prompt] --> B[Problem Statement]
+    A --> C[Code Block with Bug]
+    A --> D[Error Message]
+    A --> E[Expected vs Actual Behavior]
+    A --> F[Request for Solution]
+    
+    style A fill:#e1d5e7,stroke:#333,stroke-width:2px
 ```
-The following code has a bug:
 
-```[language]
-[paste code here]
-```
-
-Error message:
-[paste error message]
-
-Expected behavior:
-[describe what should happen]
-
-Actual behavior:
-[describe what is actually happening]
-
-Please help identify and fix the issue.
-```
+**Key Elements:**
+- **Problem Statement**: Clear description of the issue
+- **Code Context**: Relevant code section with sufficient context
+- **Error Details**: Exact error messages or unexpected outputs
+- **Behavior Comparison**: What should happen vs. what actually happens
+- **Solution Request**: Specific help needed (identify cause, suggest fix, explain solution)
 
 ## Intermediate Prompt Templates
 
-### Feature Implementation
+### Feature Implementation Template
 
-```
-I'm working on a [type of project] using [language/framework]. I need to implement [feature description].
-
-Current code:
-```[language]
-[paste relevant code]
-```
-
-Requirements for the new feature:
-1. [Requirement 1]
-2. [Requirement 2]
-3. [Requirement 3]
-
-Technical constraints:
-- [Constraint 1]
-- [Constraint 2]
-
-Please provide a complete implementation of this feature that:
-- Follows best practices
-- Includes error handling
-- Is well-documented
-```
-
-### Code Refactoring
-
-```
-Please refactor the following code to improve [performance/readability/maintainability]:
-
-```[language]
-[paste code here]
+```mermaid
+graph TD
+    A[Feature Implementation Prompt] --> B[Project Context]
+    A --> C[Current Code Base]
+    A --> D[Feature Requirements]
+    A --> E[Technical Constraints]
+    A --> F[Quality Expectations]
+    
+    D --> D1[Requirement 1]
+    D --> D2[Requirement 2]
+    D --> D3[Requirement 3]
+    
+    E --> E1[Constraint 1]
+    E --> E2[Constraint 2]
+    
+    F --> F1[Best Practices]
+    F --> F2[Error Handling]
+    F --> F3[Documentation]
+    
+    style A fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style D fill:#d4f1f9,stroke:#333,stroke-width:2px
+    style F fill:#ffe6cc,stroke:#333,stroke-width:2px
 ```
 
-Specific concerns:
-- [Concern 1]
-- [Concern 2]
+**Template Structure:**
 
-Please maintain all existing functionality while:
-- [Improvement goal 1]
-- [Improvement goal 2]
+1. **Introduction**: Brief description of the project and its current state
+2. **Feature Need**: Clear description of the feature to be implemented
+3. **Current Context**: Relevant existing code snippets
+4. **Requirements List**: Numbered list of specific requirements
+5. **Constraints**: Technical limitations or compatibility requirements
+6. **Quality Standards**: Expectations for the implementation quality
+
+### Code Refactoring Template
+
+```mermaid
+flowchart TD
+    A[Code Refactoring Prompt] --> B[Improvement Focus]
+    A --> C[Original Code]
+    A --> D[Specific Concerns]
+    A --> E[Improvement Goals]
+    A --> F[Functional Requirements]
+    
+    B --> B1[Performance]
+    B --> B2[Readability]
+    B --> B3[Maintainability]
+    
+    D --> D1[Concern 1]
+    D --> D2[Concern 2]
+    
+    E --> E1[Goal 1]
+    E --> E2[Goal 2]
+    
+    F -->|Must Maintain| F1[Existing Functionality]
+    
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style F fill:#e1d5e7,stroke:#333,stroke-width:2px
 ```
+
+**Refactoring Focus Areas:**
+
+- **Performance**: Execution speed, memory usage, resource efficiency
+- **Readability**: Clear variable names, consistent style, self-documenting
+- **Maintainability**: Modular design, reduced complexity, separation of concerns
+- **Specific Concerns**: Identified issues like duplicate code or complex conditions
+- **Improvement Goals**: Quantifiable targets like "reduce function length by 50%"
 
 ## Advanced Prompt Templates
 
-### Architecture Design
+### Architecture Design Template
 
-```
-I need to design a [type of system] that handles [requirements].
-
-Technical requirements:
-- Expected traffic: [volume]
-- Data storage needs: [description]
-- Integration points: [list]
-- Security considerations: [requirements]
-- Scalability needs: [description]
-
-Please provide:
-1. A high-level architecture diagram (in text)
-2. Component descriptions
-3. Data flow explanation
-4. Technology recommendations
-5. Potential challenges and solutions
-```
-
-### Performance Optimization
-
-```
-My [application/function/database] is experiencing performance issues when [condition].
-
-Current metrics:
-- [Metric 1]: [value]
-- [Metric 2]: [value]
-
-System specifications:
-- [Hardware/Cloud resources]
-- [Current configuration]
-
-Relevant code:
-```[language]
-[paste code here]
+```mermaid
+graph TD
+    A[Architecture Design Prompt] --> B[System Type & Purpose]
+    A --> C[Technical Requirements]
+    A --> D[Requested Deliverables]
+    
+    C --> C1[Traffic Volume]
+    C --> C2[Data Storage Needs]
+    C --> C3[Integration Points]
+    C --> C4[Security Requirements]
+    C --> C5[Scalability Needs]
+    
+    D --> D1[Architecture Diagram]
+    D --> D2[Component Descriptions]
+    D --> D3[Data Flow Explanation]
+    D --> D4[Technology Recommendations]
+    D --> D5[Challenges & Solutions]
+    
+    style A fill:#e1d5e7,stroke:#333,stroke-width:2px
+    style C fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style D fill:#d4f1f9,stroke:#333,stroke-width:2px
 ```
 
-Please analyze potential bottlenecks and provide specific optimization recommendations with:
-1. Immediate actions to improve performance
-2. Medium-term architectural changes
-3. Monitoring suggestions to track improvements
+**Architecture Design Elements:**
+- **System Purpose**: Clear definition of the system's main function
+- **Technical Requirements**: Specific metrics and constraints
+- **Integration Context**: External systems and APIs
+- **Expected Deliverables**: Defined artifacts to be produced
+
+### Performance Optimization Template
+
+```mermaid
+flowchart TD
+    A[Performance Optimization Prompt] --> B[Problem Statement]
+    A --> C[Current Metrics]
+    A --> D[System Specifications]
+    A --> E[Code Context]
+    A --> F[Expected Solutions]
+    
+    C --> C1[Metric 1: Value]
+    C --> C2[Metric 2: Value]
+    
+    D --> D1[Hardware/Cloud Resources]
+    D --> D2[Current Configuration]
+    
+    F --> F1[Immediate Actions]
+    F --> F2[Medium-term Changes]
+    F --> F3[Monitoring Suggestions]
+    
+    style A fill:#fff2cc,stroke:#333,stroke-width:2px
+    style C fill:#f8cecc,stroke:#333,stroke-width:2px
+    style F fill:#d5e8d4,stroke:#333,stroke-width:2px
 ```
 
-### AI Collaboration Pattern
+**Optimization Components:**
+- **Baseline Metrics**: Current performance measurements
+- **System Context**: Hardware, software, and configuration details
+- **Problem Conditions**: When and how issues occur
+- **Solution Timeframes**: Short-term fixes vs architectural improvements
+- **Monitoring Strategy**: How to verify improvements
 
+### AI Collaboration Pattern Template
+
+```mermaid
+graph TD
+    A[Collaboration Pattern Prompt] --> B[Project Description]
+    A --> C[Project Context]
+    A --> D[Collaboration Expectations]
+    A --> E[Working Style Preferences]
+    A --> F[Collaboration Framework]
+    
+    C --> C1[Key Information]
+    C --> C2[Current Progress]
+    C --> C3[Project Goals]
+    
+    D --> D1[Expectation 1]
+    D --> D2[Expectation 2]
+    D --> D3[Expectation 3]
+    
+    E --> E1[Interaction Style]
+    E --> E2[Detail Level]
+    E --> E3[Decision Process]
+    
+    F --> F1[Communication Framework]
+    F --> F2[Progress Tracking]
+    F --> F3[Review Process]
+    
+    style A fill:#d4f1f9,stroke:#333,stroke-width:2px
+    style C fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style E fill:#e1d5e7,stroke:#333,stroke-width:2px
 ```
-I'm working on [project description] and want to establish an effective collaboration pattern with you.
 
-Project context:
-- [Key information about the project]
-- [Current progress]
-- [Goals]
-
-For this collaboration, I'd like to:
-1. [Expectation 1]
-2. [Expectation 2]
-3. [Expectation 3]
-
-My preferred working style is:
-- [Preferences for interaction]
-- [Level of detail needed]
-- [How decisions should be made]
-
-Let's establish:
-- Communication framework
-- Progress tracking method
-- Regular review process
-```
+**Effective Collaboration Setup:**
+- **Project Context**: The what, why, and current state
+- **Clear Expectations**: Specific roles and deliverables
+- **Working Style**: Communication preferences and decision processes
+- **Process Framework**: How progress will be tracked and reviewed

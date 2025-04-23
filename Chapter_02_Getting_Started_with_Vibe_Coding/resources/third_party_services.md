@@ -28,27 +28,55 @@ flowchart TD
     E -->|No| G[Redirect to Cancel Page]
     F --> H[Server Verifies Payment]
     H --> I[Fulfill Order/Subscription]
+    
+    style A fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style E fill:#ffe6cc,stroke:#333,stroke-width:2px
+    style I fill:#d4f1f9,stroke:#333,stroke-width:2px
 ```
 
 **Server-side Implementation**:
-On your server, you would create a checkout session by providing details like:
-- Payment methods to accept (credit cards, etc.)
-- Line items with product information and pricing
-- Subscription mode for recurring payments
-- Success and cancel URLs for redirection after payment
 
-The server then returns a session ID to the client.
+```mermaid
+sequenceDiagram
+    participant App as Your Application
+    participant Stripe as Stripe API
+    participant Client as Client
+    
+    Client->>App: Checkout Request
+    App->>App: Prepare Checkout Details
+    Note over App: Configure payment methods,<br>line items, pricing,<br>subscription settings
+    App->>Stripe: Create Checkout Session
+    Stripe-->>App: Return Session ID
+    App-->>Client: Return Session ID
+    
+    style App fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style Stripe fill:#ffe6cc,stroke:#333,stroke-width:2px
+    style Client fill:#d5e8d4,stroke:#333,stroke-width:2px
 ```
 
 **Client-side Implementation**:
-On the frontend, your application needs to:
-1. Initialize the Stripe client with your publishable key
-2. Handle checkout button clicks
-3. Request a checkout session from your server
-4. Redirect the user to Stripe's hosted checkout page
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Client
+    participant Server
+    participant StripeCheckout
+    
+    User->>Client: Click Checkout Button
+    Client->>Server: Request Checkout Session
+    Server-->>Client: Return Session ID
+    Client->>StripeCheckout: Redirect with Session ID
+    StripeCheckout->>User: Display Secure Payment Form
+    User->>StripeCheckout: Enter Payment Details
+    StripeCheckout->>Server: Confirm Payment (webhook)
+    StripeCheckout->>Client: Redirect to Success/Cancel URL
+    
+    style User fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style StripeCheckout fill:#ffe6cc,stroke:#333,stroke-width:2px
+```
 
 This approach keeps sensitive payment details off your servers, as customers enter their payment information directly on Stripe's secure checkout page.
-```
 
 ### PayPal
 
@@ -82,6 +110,11 @@ flowchart LR
     D --> E{Authentication Successful?}
     E -->|Yes| F[Access User Profile]
     E -->|No| G[Display Error Message]
+    
+    style A fill:#d4f1f9,stroke:#333,stroke-width:2px
+    style E fill:#e1d5e7,stroke:#333,stroke-width:2px
+    style F fill:#d5e8d4,stroke:#333,stroke-width:2px
+    style G fill:#f8cecc,stroke:#333,stroke-width:2px
 ```
 
 **Implementation Process**:
@@ -103,7 +136,6 @@ flowchart LR
    - Handle authentication errors with appropriate user feedback
 
 This approach provides a secure, managed authentication system without having to build authentication infrastructure from scratch.
-```
 
 ### Supabase
 
@@ -126,10 +158,18 @@ flowchart TD
     C -->|Read| E[Query Records]
     C -->|Update| F[Modify Records]
     C -->|Delete| G[Remove Records]
-    D & E & F & G --> H[Handle Response]
-    H --> I{Success?}
-    I -->|Yes| J[Process Data]
-    I -->|No| K[Handle Error]
+    D & E & F & G --> H[Process Results]
+    
+    subgraph "Data Filtering"
+    E --> E1[Filter by Columns]
+    E --> E2[Apply Conditions]
+    E --> E3[Order Results]
+    E --> E4[Paginate Data]
+    end
+    
+    style A fill:#d4f1f9,stroke:#333,stroke-width:2px
+    style C fill:#e1d5e7,stroke:#333,stroke-width:2px
+    style H fill:#d5e8d4,stroke:#333,stroke-width:2px
 ```
 
 **Supabase Implementation Process**:
