@@ -115,7 +115,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_02_Getting_Started/README.md">Chapter 2:<br>Getting Started with Vibe Coding</a></b></td>
+    <td><b><a href="./Chapter_02_Getting_Started_with_Vibe_Coding/README.md">Chapter 2:<br>Getting Started with Vibe Coding</a></b></td>
     <td>A practical guide to establishing your Vibe Coding workflow, from selecting the right tools to completing your first AI-assisted project.</td>
     <td>
       <ul>
@@ -139,7 +139,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_04_Backend_Development/README.md">Chapter 4:<br>Backend Development</a></b></td>
+    <td><b><a href="./Chapter_04_AI_Powered_Backend_Development/README.md">Chapter 4:<br>Backend Development</a></b></td>
     <td>Mastering AI-assisted backend development, from API design to database integration and server deployment.</td>
     <td>
       <ul>
@@ -151,7 +151,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_05_Full_Stack/README.md">Chapter 5:<br>Full Stack Development</a></b></td>
+    <td><b><a href="./Chapter_05_Full_Stack_Development_with_AI/README.md">Chapter 5:<br>Full Stack Development</a></b></td>
     <td>Creating complete full-stack applications with seamless integration between frontend, backend, and database components.</td>
     <td>
       <ul>
@@ -187,7 +187,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_08_Data_Science/README.md">Chapter 8:<br>Data Science</a></b></td>
+    <td><b><a href="./Chapter_08_Advanced_Machine_Learning/README.md">Chapter 8:<br>Advanced Machine Learning</a></b></td>
     <td>Applying Vibe Coding techniques to data analysis, visualization, and machine learning model development.</td>
     <td>
       <ul>
@@ -199,7 +199,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_09_Production_Capstone/README.md">Chapter 9:<br>Production Capstone</a></b></td>
+    <td><b><a href="./Chapter_09_Security_and_DevOps/README.md">Chapter 9:<br>Security and DevOps</a></b></td>
     <td>Taking applications from development to production with AI-assisted deployment, monitoring, and optimization.</td>
     <td>
       <ul>
@@ -211,7 +211,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_10_Collaboration/README.md">Chapter 10:<br>AI-Augmented Team Collaboration</a></b></td>
+    <td><b><a href="./Chapter_10_AI_Augmented_Team_Collaboration/README.md">Chapter 10:<br>AI-Augmented Team Collaboration</a></b></td>
     <td>Transforming team dynamics by integrating AI tools into collaborative development workflows.</td>
     <td>
       <ul>
@@ -243,6 +243,18 @@ This ebook is designed to meet you where you are on your development journey. Ea
         <li>Intent-driven development paradigms</li>
         <li>Human-AI symbiotic systems</li>
         <li>Self-evolving software organisms</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b><a href="./Chapter_13_Capstone_Project/README.md">Chapter 13:<br>Capstone Project</a></b></td>
+    <td>Apply everything you've learned to build a complete, production-ready project using Vibe Coding methodologies.</td>
+    <td>
+      <ul>
+        <li>Project planning and architecture design</li>
+        <li>Full-stack implementation with AI assistance</li>
+        <li>Testing, deployment, and documentation</li>
+        <li>Showcasing your Vibe Coding masterpiece</li>
       </ul>
     </td>
   </tr>

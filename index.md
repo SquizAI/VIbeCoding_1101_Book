@@ -67,6 +67,9 @@ Navigate ethical considerations, bias prevention, and responsible AI usage in de
 ### 🔮 [Chapter 12: The Future of Vibe Coding](Chapter_12_Future_of_Vibe_Coding/)
 Explore emerging trends and prepare for the evolution of AI-assisted development.
 
+### 🏆 [Chapter 13: Capstone Project](Chapter_13_Capstone_Project/)
+Apply everything you've learned to build a complete, production-ready project using Vibe Coding methodologies.
+
 ---
 
 <div align="center">
