@@ -223,7 +223,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_11_Ethics/README.md">Chapter 11:<br>Ethics of AI-Assisted Development</a></b></td>
+    <td><b><a href="./Chapter_11_Ethics_in_AI_Assisted_Development/README.md">Chapter 11:<br>Ethics of AI-Assisted Development</a></b></td>
     <td>Navigating the ethical dimensions and implications of AI-assisted development practices.</td>
     <td>
       <ul>
@@ -235,7 +235,7 @@ This ebook is designed to meet you where you are on your development journey. Ea
     </td>
   </tr>
   <tr>
-    <td><b><a href="./Chapter_12_Future/README.md">Chapter 12:<br>The Future Beyond Vibe Coding</a></b></td>
+    <td><b><a href="./Chapter_12_Future_of_Vibe_Coding/README.md">Chapter 12:<br>The Future Beyond Vibe Coding</a></b></td>
     <td>Exploring emerging trends and future possibilities that extend beyond current AI-assisted development practices.</td>
     <td>
       <ul>

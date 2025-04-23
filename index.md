@@ -40,31 +40,31 @@ Set up your environment and learn the fundamentals of prompt engineering for eff
 ### 💻 [Chapter 03: Building Real Projects with AI Assistance](Chapter_03_Building_Real_Projects_with_AI_Assistance/)
 Apply Vibe Coding techniques to create practical applications with guided AI assistance.
 
-### 🔧 [Chapter 04: AI-Assisted Backend Development](Chapter_04/)
+### 🔧 [Chapter 04: AI-Assisted Backend Development](Chapter_04_AI_Powered_Backend_Development/)
 Leverage AI to design and implement robust server-side components and APIs.
 
-### 🚚 [Chapter 05: Continuous Deployment and Advanced AI Integration](Chapter_05/)
+### 🚚 [Chapter 05: Full Stack Development with AI](Chapter_05_Full_Stack_Development_with_AI/)
 Streamline your development workflow with AI-enhanced CI/CD and deployment strategies.
 
-### 👥 [Chapter 06: AI Augmented Team Collaboration](Chapter_06/)
+### 👥 [Chapter 06: Advanced Prompt Engineering](Chapter_06_Advanced_Prompt_Engineering/)
 Harness AI tools to improve team productivity, knowledge sharing, and code quality.
 
-### 📱 [Chapter 07: Mobile Development with AI Assistance](Chapter_07/)
+### 📱 [Chapter 07: Mobile Development with AI Assistance](Chapter_07_Mobile_Development/)
 Apply Vibe Coding principles to mobile app development across platforms.
 
-### 📈 [Chapter 08: Data Science and AI Integration](Chapter_08/)
+### 📈 [Chapter 08: Advanced Machine Learning](Chapter_08_Advanced_Machine_Learning/)
 Use AI to accelerate data analysis, visualization, and machine learning implementations.
 
-### 🚀 [Chapter 09: Production-Ready Deployment](Chapter_09/)
+### 🚀 [Chapter 09: Security and DevOps](Chapter_09_Security_and_DevOps/)
 Ensure your AI-assisted projects are scalable, maintainable, and production-ready.
 
-### 👥 [Chapter 10: Collaborative AI Development](Chapter_10/)
+### 👥 [Chapter 10: AI Augmented Team Collaboration](Chapter_10_AI_Augmented_Team_Collaboration/)
 Advanced techniques for AI-human collaboration in team environments.
 
-### ⚖️ [Chapter 11: Ethics in AI-Assisted Development](Chapter_11/)
+### ⚖️ [Chapter 11: Ethics in AI-Assisted Development](Chapter_11_Ethics_in_AI_Assisted_Development/)
 Navigate ethical considerations, bias prevention, and responsible AI usage in development.
 
-### 🔮 [Chapter 12: The Future of Vibe Coding](Chapter_12/)
+### 🔮 [Chapter 12: The Future of Vibe Coding](Chapter_12_Future_of_Vibe_Coding/)
 Explore emerging trends and prepare for the evolution of AI-assisted development.
 
 ---
