@@ -37,7 +37,7 @@ Understand the paradigm shift in software development with AI assistance and the
 ### 🚀 [Chapter 02: Getting Started with Vibe Coding](Chapter_02_Getting_Started_with_Vibe_Coding/)
 Set up your environment and learn the fundamentals of prompt engineering for effective AI collaboration.
 
-### 💻 [Chapter 03: Building Real Projects with AI Assistance](Chapter_03/)
+### 💻 [Chapter 03: Building Real Projects with AI Assistance](Chapter_03_Building_Real_Projects_with_AI_Assistance/)
 Apply Vibe Coding techniques to create practical applications with guided AI assistance.
 
 ### 🔧 [Chapter 04: AI-Assisted Backend Development](Chapter_04/)
